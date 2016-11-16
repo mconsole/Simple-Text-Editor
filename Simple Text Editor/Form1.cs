@@ -54,7 +54,7 @@ namespace Simple_Text_Editor
             SaveFileDialog svf = new SaveFileDialog();
             svf.Filter = "Text Files (.txt)|*.txt";
             svf.Title = "Save file...";
-            
+
             if (svf.ShowDialog() == DialogResult.OK)
             {
                 StreamWriter sw = new StreamWriter(svf.FileName);
@@ -141,7 +141,7 @@ namespace Simple_Text_Editor
         {
             e.Graphics.DrawString(this.richTextBox1.Text, this.richTextBox1.Font, Brushes.Black, 10, 25);
         }
-        
+
 
 
     }
