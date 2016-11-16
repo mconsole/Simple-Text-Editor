@@ -96,5 +96,37 @@ namespace Simple_Text_Editor
         {
 
         }
+
+        private void wordCountToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var input = richTextBox1.Text;
+
+            int words = 0;
+
+            for (var i = 0; i < input.Length; i++)
+            {
+                if (i < input.Length && !char.IsWhiteSpace(input[i]))
+                {
+                    while (i < input.Length && !char.IsWhiteSpace(input[i]))
+                    {
+                        i++;
+                    }
+
+                    words++;
+                }
+
+                else if (i < input.Length && char.IsWhiteSpace(input[i]))
+                {
+                    i++;
+                }
+            }
+
+            MessageBox.Show("Total words: " + words);
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Created by Mitchell Console");
+        }
     }
 }
