@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Drawing.Printing;
 
 namespace Simple_Text_Editor
 {
@@ -128,5 +129,20 @@ namespace Simple_Text_Editor
         {
             MessageBox.Show("Created by Mitchell Console");
         }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PrintDocument printDocument = new PrintDocument();
+            printDocument.PrintPage += PrintDocumentOnPrintPage;
+            printDocument.Print();
+        }
+
+        private void PrintDocumentOnPrintPage(object sender, PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString(this.richTextBox1.Text, this.richTextBox1.Font, Brushes.Black, 10, 25);
+        }
+        
+
+
     }
 }
