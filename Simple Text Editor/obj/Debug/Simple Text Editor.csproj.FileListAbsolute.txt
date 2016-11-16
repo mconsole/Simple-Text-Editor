@@ -1,0 +1,9 @@
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\bin\Debug\Simple Text Editor.exe.config
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\bin\Debug\Simple Text Editor.exe
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\bin\Debug\Simple Text Editor.pdb
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\obj\Debug\Simple Text Editor.csprojResolveAssemblyReference.cache
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\obj\Debug\Simple_Text_Editor.Form1.resources
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\obj\Debug\Simple_Text_Editor.Properties.Resources.resources
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\obj\Debug\Simple Text Editor.csproj.GenerateResource.Cache
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\obj\Debug\Simple Text Editor.exe
+C:\Code Projects\C#\Simple Text Editor\Simple Text Editor\obj\Debug\Simple Text Editor.pdb
